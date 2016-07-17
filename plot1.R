@@ -16,7 +16,7 @@ data_full$Date <- as.Date(data_full$Date, format="%d/%m/%Y")
  
  ## Saving to file
  dev.copy(png, file="plot1.png", height=480, width=480)
- 
+
  dev.off()
  
  
